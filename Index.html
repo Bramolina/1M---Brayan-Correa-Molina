@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+    <meta charset="UTF-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba_sem6</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0%;
+        }
+
+        section {
+            padding: 30px 60px;
+        }
+
+        header {
+            background-color: rgb(209, 175, 133);
+            text-align: center;
+            padding: 30px 20px 0;
+            border-bottom: 2px solid black;
+        }
+
+        header h1 {
+            color: black;
+            font-size: 42px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            border: 2px solid black;
+            border-radius: 20px;
+            border-bottom: 9px solid black;
+            margin: italic;
+
+        }
+
+        .opciones{
+            background-color: bisque;
+            padding: 5px;
+            
+        }
+
+        .menu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            display: flex;
+            justify-content: center;
+        }
+
+        .menu li {
+            margin: 0 10px;
+        }
+
+        .menu a {
+            display: block;
+            color: black;
+            text-decoration: none;
+            padding: 10px 5px;
+            font-size: 16px;
+            transition: 0.3s;
+
+        }
+
+        .menu a:hover {
+            background-color: azure;
+            color: black;
+            border-color: bisque;
+            border-radius: 5px;
+        }
+
+
+        table {
+            width: 35%;
+            margin: auto;
+            padding: 1px;
+            border-radius: 8px;
+            border: 2px solid black;
+            
+            
+        }
+
+        img {
+            width: 150px;
+            border-radius: 10px;
+
+        }
+
+        .table {
+            border-radius: 8px;
+            background-color: rgb(201, 203, 203);
+            border-color: rgb(12, 12, 0);
+            
+            
+        }
+
+        td:target img {
+            border: 8px solid rgb(222, 98, 98);
+        }
+
+        .contacto {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 9px;
+        }
+
+        .contacto h1 {
+            color: black;
+            text-align: center;
+            font-size: 40px;
+        }
+        
+        .contacto p {
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
+
+        .section.campo{
+            margin-bottom: 15px;
+            
+        }
+
+        section .campo label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        section .campo input, textarea {
+            width: 85%;
+            padding: 15px;
+            border: 1px solid blue;
+            border-radius: 9px;
+            box-sizing: border-box;
+        }
+
+        section .campo textarea {
+            resize: vertical;
+            min-height: 100px;  
+        }
+
+        button {
+            display: block;
+            width: 15%;
+            margin-bottom: 10px;
+            background-color: bisque;
+            color: black;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        section button:hover {
+            background-color: azure;
+            color: black;
+            border-color: bisque;
+            border-radius: 5px;
+        }
+
+        .login  {
+            background-color: aquamarine;
+            color: black;
+            text-align: center;
+            font-size: 40px;
+
+        }
+       .usuario {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            
+        
+       }
+       .Contraseña {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold
+
+    
+       }
+
+       
+        
+    
+
+    </style>
+
+<!--encabezado-->
+</head>
+
+<!--cuerpo de la pagina-->
+<body>
+
+<!-- Header Titulos - eslogan-->
+    <header id="arriba">
+        <h1><i>Aura</i></h1>
+        <p><q>Tu estilo, tu mundo, tu momento: alta costura al alcance de todo</q></p>
+
+    </header>
+
+<!--Nav Navegacion de menu-->
+    <nav class="opciones">
+        <ul class="menu">
+            <li><a href="#Quienes-somos">Quienes somos</a></li>
+            <li><a href="#Nueva-coleccion">Nueva Coleccion</a></li>
+            <li><a href="#Categorias">Categorias</a></li>
+            <li><a href="#Suscribete">Suscribete</a></li>
+        </ul>
+
+    </nav>
+
+    <main>
+<!--Section subtitulos y descripciones de la pagina web-->
+        <section id="Quienes-somos">
+            <article>
+                <h2><U>Quienes Somos?</U></h2>
+                <p>
+                    <i>Somos una marca creada para brindarles a las mujeres resilientes, que han luchado toda su vida, la oportunidad de vestir con elegancia sin tener que sacrificar su comodidad ni su presupuesto.</i></p> <br>
+                    <i>Por eso, diseñamos estilos que se adaptan a la mujer del día a día, para que pueda sentirse sofisticada, cómoda y segura, incluso desde la comodidad de su hogar.</i>
+            </article>
+            <a href="#arriba"><button>Subir</button></a>
+            </section>
+
+<!--Tabla de precios y producto-->
+        <section id="Nueva-coleccion">
+                <article>
+                    <h2><u>Nueva colección</u></h2>
+                    <p>Ofrecemos productos de alta calidad a los mejores precios</p>
+                    <ul>
+                        <li>Rebirth — una nueva etapa</a></li>
+                        <li>Valentina — fuerza y feminidad.</li>
+                        <li>Drive — fuerza, determinación y carácter.</li>
+                        <li>Limitless — conecta con la idea de superar límites.</li>
+                    </ul>
+
+                <table border="1">
+                    <th>Productos</th>
+                    <th>Valores</th>
+                
+                    <TR>
+                        <TD><a href="#Rebirth">Rebirth — una nueva etapa</a></TD>
+                        <TD>$ 250.000</TD>
+                    </TR>
+                    <TR>
+                        <TD><a href="#Valentina">Valentina — fuerza y feminidad</a></TD>
+                        <TD>$ 120.000</TD>
+                    </TR> 
+                    <TR>  
+                        <TD><a href="#Drive">Drive — fuerza, determinación y carácter</a></TD>
+                        <TD>$ 50.000</TD>
+                    </TR> 
+                    <TR>
+                        <TD><a href="#Limitless">Limitless — conecta con la idea de superar límites</a></TD>
+                        <TD>$ 1.000.000</TD>
+                    </TR>   
+
+                </article>
+            </table>
+
+                
+        </section>
+<!--seccion de las imagenes de coleccion-->
+        <section>
+                <table border="1">
+                <tr class="table">
+                    <td id="Rebirth"><img src="Img/Rebirth.jpeg" alt="Rebirth"></td>
+                    <td id="Valentina"><img src="Img/Valentina.jpeg" alt="anime 1"></td>
+                    <td id="Drive"><img src="Img/Drive.jpeg" alt="funk pop 1"></td>
+                    <td id="Limitless"><img src="Img/sinlimites.jpeg" alt="hot toy 1"></td>
+                </tr>
+                </table>
+
+                
+                <a href="#arriba"><button>Subir</button></a>
+        </section>
+
+        <section id="Categorias">
+                <article>
+                <h2><u>Categorias</u></h2>
+                <p>Ropa casual del dia a dia</p>
+                <ul>
+                    <li>Vestidos</li>
+                    <li>Blusas</li>
+                    <li>Faldas</li>
+                    <li>Jeans</li>
+                    <li>Ropa Casual</li>
+                    <li>Nuevas colecciones cada verano</li>
+
+                </ul>
+
+                </article>
+
+                <a href="#arriba"><button>Subir</button></a>
+
+        </section>
+
+        <section id="Suscribete">
+                <h2><u>Suscribete</u></h2>
+                <article>
+                <p><i>Suscribete en nuestras redes sociales para que estes al tanto de las nuevas colecciones</i></p>
+
+                <a href="https://www.instagram.com/" target="_blank"><button>Instagram</button></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><button>WhatsApp</button></a>
+                <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Des_LA" target="_blank"><Button>Facebook</Button></a>
+                
+                </article><br>
+
+                <a href="#arriba"><button>Subir</button></a>
+
+        </section>
+
+
+        <section class="contacto">
+                <h1>Contactanos</h1>
+                <p>Tienes alguna pregunta o inquietud? Completa el siguiente formulario y nos pondremos en contacto contigo</p>
+                <form action="/enviar" method="post">
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Digite por favor su nombre" required>                   
+                    </div>
+                    <div class="campo">
+                        <label for="correo">Correo electronico</label>
+                        <input type="email" id="correo" name="correo" placeholder="Ingrese su correo electronico" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="telefono">Telefono</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su telefono celular" required>
+                    </div>
+
+                <div class="campo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" placeholder="Escriba su mensaje aqui" required></textarea>
+
+                </div>
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
+    
+                </form>
+                
+                </div>
+
+        </section> 
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Prueba Momento 6 Todos los derechos reservados.</p>
+
+    </footer>
+    
+</body>
+</html>
